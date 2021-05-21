@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HMRS/HMRS.iml" filepath="$PROJECT_DIR$/HMRS/HMRS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HMRS/HRMS.iml" filepath="$PROJECT_DIR$/HMRS/HRMS.iml" />
     </modules>
   </component>
 </project>
