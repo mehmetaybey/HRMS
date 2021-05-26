@@ -12,7 +12,7 @@ import javax.persistence.*;
 @Table(name = "employee_confirms_employers")
 @AllArgsConstructor
 @NoArgsConstructor
-public class EmployeeConfirmEmployer implements Entities {
+public class SystemPersonnelConfirmEmployer implements Entities {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")

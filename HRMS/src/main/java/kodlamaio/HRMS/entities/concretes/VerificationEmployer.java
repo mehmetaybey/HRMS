@@ -12,7 +12,7 @@ import javax.persistence.*;
 @Table(name = "verification_code_employers")
 @AllArgsConstructor
 @NoArgsConstructor
-public class VerificationCodeEmployer implements Entities {
+public class VerificationEmployer implements Entities {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")

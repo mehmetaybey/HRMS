@@ -19,16 +19,16 @@ public class Candidate extends User implements Entities {
     @Column(name = "id")
     private int id;
 
-    @Column(name = "first_name")
+    @Column(name = "first_name",nullable = false)
     private String firstName;
 
-    @Column(name="last_name")
+    @Column(name="last_name",nullable = false)
     private String lastName;
 
-    @Column(name = "identity_number")
+    @Column(name = "identity_number",nullable = false)
     private String identityNumber;
 
-    @Column(name = "birth_year")
+    @Column(name = "birth_year",nullable = false)
     private int dateBirth;
 
 

@@ -6,27 +6,21 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
-import java.util.Date;
 
 @Data
 @Entity
-@Table(name = "employee_confirms")
+@Table(name = "verification_code_candidates")
 @AllArgsConstructor
 @NoArgsConstructor
-public class EmployeeConfirm implements Entities {
+public class VerificationCandidate implements Entities {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
-    private int id;
+    private  int id;
 
-    @Column(name = "employee_id")
-    private int employee_id;
+    @Column(name = "candidate_id")
+    private int candidateId;
 
-    @Column(name ="is_confirmed" )
-    private boolean isConfirmed;
-
-    @Column(name = "confirm_date")
-    private Date confirmDate;
 
 
 }

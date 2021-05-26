@@ -6,7 +6,6 @@ import kodlamaio.HRMS.core.Utilities.results.Result;
 import kodlamaio.HRMS.core.Utilities.results.SuccessDataResult;
 import kodlamaio.HRMS.core.Utilities.results.SuccessResult;
 import kodlamaio.HRMS.dataAccess.abstracts.CandidateDao;
-import kodlamaio.HRMS.entities.abstracts.User;
 import kodlamaio.HRMS.entities.concretes.Candidate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

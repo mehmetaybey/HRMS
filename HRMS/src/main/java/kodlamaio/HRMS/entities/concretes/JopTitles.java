@@ -18,7 +18,7 @@ public class JopTitles implements Entities {
     @Column(name = "id")
     private int id;
 
-    @Column(name = "title")
+    @Column(name = "title",nullable = false)
     private String title;
 
 

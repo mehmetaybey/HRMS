@@ -13,7 +13,7 @@ import java.util.Date;
 @Table(name = "verification_codes")
 @AllArgsConstructor
 @NoArgsConstructor
-public class VerificationCode implements Entities {
+public class EmailVerification implements Entities {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
@@ -27,6 +27,13 @@ public class VerificationCode implements Entities {
 
     @Column(name = "verified_date")
     private Date verifiedDate;
+
+    @Column(name="user_id")
+    private int userId;
+
+    public boolean isVerified() {
+        return this.isVerified;
+    }
 
 
 }

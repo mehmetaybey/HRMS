@@ -19,13 +19,13 @@ public class Employer extends User implements Entities {
     @Column(name = "id")
     private int id;
 
-    @Column(name = "company_name")
+    @Column(name = "company_name",nullable = false)
     private String companyName;
 
-    @Column(name = "web_adress")
+    @Column(name = "web_adress",nullable = false)
     private String webAdress;
 
-    @Column(name = "phone_number")
+    @Column(name = "phone_number",nullable = false)
     private String telephoneNumber;
 
 

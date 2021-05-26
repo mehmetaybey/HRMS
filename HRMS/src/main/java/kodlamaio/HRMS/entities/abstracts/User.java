@@ -8,19 +8,19 @@ import javax.persistence.*;
 
 @Entity
 @Data
-@Table(name="users")
 @AllArgsConstructor
 @NoArgsConstructor
+@Table(name="users")
 public abstract class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="id")
     private int id;
 
-    @Column(name = "email")
+    @Column(name = "email",nullable = false,unique = true)
     private String email;
 
-    @Column(name = "password")
+    @Column(name = "password",nullable = false)
     private String password;
 
 }
